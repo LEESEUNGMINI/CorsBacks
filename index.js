@@ -22,7 +22,6 @@ app.get("/neople", (req, res) => {
     });
 });
 
-const PORT = 3000;
 app.listen(3000, () => {
   console.log(`Server is running on localhost:3000`);
 });
